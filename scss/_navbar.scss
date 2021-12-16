@@ -1,0 +1,27 @@
+nav{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav ul{
+    font-weight: $text__poppin-large;
+    font-size: 1.7rem;
+    margin-left: 40px;
+}
+
+nav img{
+    margin-right: 40px;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+

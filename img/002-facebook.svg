@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>002-facebook</title>
+	<defs>
+		<image  width="32" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAAJZQTFRF////SUmSO1eaO1mZO1mYOlmYO1mYPVyZO1qYO1mYO1mYQGCfPFmZO1qYQFWVO1mYOVuZPFmYR2OekKHFuMPa09ro1dvpeY65VG6l4ubw////ipzCu8bbi53CP1ya/Pz99vf61NvoVW+mcoe1WnOoPVuZZHytXnerQV6bZn2vgJS8a4KxV3GnVnCmtsHZwsvfQ2CcTWmiBSQvRQAAADJ0Uk5TAAdJmMHa8xmX8v8IhPUYyC3j//////////////////////////////////////////+2ktQPAAABB0lEQVR4nIWT6ZqCIBSGUcAQybLFymZrsZqpsZn7v7kBS84RmMfvF/q9wNkgxCqKKeNJwhmNI+JrJFJplYqRY2dqLHsaqwz7+UR6muTgTwvfl7KY2v1BXxPPMzJ0/my+WJblqrvlEYcCf72pjLbdt2rzQ/G/tH71anMx2Qrw3961+1HuVvaP0PVD9dmb7QccZxqRGH0eDXDsZRITatf17GSA8+VSA0AJs+vPqtMXAIzwAHAFgJMkANwASBDw3dyNe2+aHwzAFcEsOAoyCDCUZhCgw4XCpfYBXWrcLB8Q/XZ7QNtuNDAeoJyRc4HnyMHQOkCRu2Nf/2rZXsPYDz+c4ac3/Hj/f/5/vWstnyHLZj0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

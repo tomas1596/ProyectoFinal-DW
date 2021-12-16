@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>001-spotify</title>
+	<defs>
+		<image  width="32" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAAVxQTFRF////ANttANleANhgANlfANpfANlfANZcANhfANlfANlfAN9gANhfANhfANVgANlgANdgANlfANlfANlfANlfANleANpgANtfANdeANVjANZgANtgANpfANlfANhgANlgANleANlfANlfANlgAONVANpgANlgANlfANlfANhiANpfANlfANlfANlfAP8AANleANleANheANleANlgANhfANhgANleANlfANpgANhfANhfANpfANVVANlfANlfANlfANpeANlfANlgANlfANlfANlfANlfANlZAN9gANheANtdANxhAP+AANVVANhfANlfANlfANhiANpdANpgANpfANlfANpeANheANlgANpeANlfANheANlfANlfANlgANlfANlfANpfANlfANlfANpgANleAN1eANdhANlgANleANthANxdAP9VANlfANlfANlfANlfAN5kANlfANhg2wnFJwAAAHR0Uk5TAAdJmMHa8xmX8v8IhPUYyC3j/tehemBGExIlOEtecIW9+PlKCUWN79YNdOX7QwEbUW+HoLnArZuIdmM+BrT0t2fbsNLk6n4UEKU/HQIMkfy8Jyltj6+dinhM/VTw2ZWTpszmebiiHjpYNioWA+zP8coX+mIIQwrMAAABgElEQVR4nIVTZ1fCMBQNbVpKaFkOHAjKEFEcKE5QhgM37oVb3Fv//zm+pqEIlNP7oUlzb957eQMhHRaOx4IoCpjnLKgRVslGdNgkax1tlxVSA0W2/+cdTtIAp6PKu9yNPCFul37fkAcFs2E3sM+8aHHIzXhCZPo+pblAUV8rwcbT0trW7nV1dHZ1+3r8gd6+ikKC/EF+gqG6tIQj/VEqsFkQB8uAQWZjg0OqgkM8fOPDI6NjifGJ5OTU9MzsXCpNJel5oHiEqalgTWwLmWwYFF7YYiTox8FcMo8Xl7RHLa8UVtdgFZCo/WfXNzaZ963QtnqrSKsrMoG/LsTIDjMrMhd4d8+3f5DHh0fHJ6GYKjk9o4TAgqxBHJfA3bl2kz5Ti/Eic3l1nby5pRfvytopTxMFuH+oxIge+WjVGkdTDXgCpvCcenl9U9u3VHEMqabFIuQ98/FJN56vxDcU40cvlkG5i+XfgLaj5TZtGPOWM21a87Y3Hxzz0UOmw6vCePz/AFJKN/8N7RreAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
