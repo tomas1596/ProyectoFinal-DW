@@ -3,8 +3,15 @@ nav{
     margin-right: 60px;
 }
 
+.navbar ul li a:hover{
+    color: #ffc107 !important;
+    border-bottom: 0.1px solid #ffc107;
+    transition: 0.3s;
+
+}
+
 nav ul{
-    font-weight: $text__poppin-large;
+    font-weight: $text__roboto-large;
     font-size: 1.7rem;
     margin-left: 40px;
 }

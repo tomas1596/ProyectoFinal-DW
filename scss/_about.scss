@@ -1,0 +1,18 @@
+.about__bg-color{
+    background-color: rgba($color: #442f00, $alpha: 0.5);
+}
+
+.about__bg-image{
+    background-image: url(/img/Background-About.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about__info-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about__title{
+    font-weight: bold;
+}

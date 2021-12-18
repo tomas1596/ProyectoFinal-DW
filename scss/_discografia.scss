@@ -1,0 +1,26 @@
+.disco__info-listen{
+    text-align: center;
+    font-size: 3rem;
+    font-family: anton;
+}
+
+.disco__title-text{
+    font-size: 2rem;
+}
+
+.disco__info-last{
+    font-size: large;
+    font-style: italic;
+}
+
+@media (max-width: 991.98px) { 
+    .w-c-100{
+        width: 90%;
+    }
+}
+
+@media (min-width: 992px) {
+    .w-clg-100{
+        width: 40%;
+    }
+}
