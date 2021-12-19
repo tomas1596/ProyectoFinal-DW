@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Montserrat&family=Roboto:wght@500&family=Shrikhand&display=swap');
 
 //Variables texto
 
@@ -10,6 +11,10 @@ $text__poppin-medium: 200;
 $text__poppin-large: 500;
 $text__roboto-large: 500;
 $text__montserrat: 400;
+$text__eczar: 500;
+$text__shrikhand: 400;
+
+//Spacers
 
 $spacer: 1rem !default;
         $spacers: () !default;

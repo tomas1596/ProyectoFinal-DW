@@ -17,7 +17,6 @@
             <!-- CSS / SASS -->
     <link rel="stylesheet" href="css/main.css">
 
-    
             <!-- Titulo Página -->
     <title>Imagine Dragons - Galeria</title>
 
@@ -27,12 +26,12 @@
 
             <!-- Empieza Navbar -->
     <header>    
-        <nav class="navbar navbar-expand-lg navbar-dark ">
+        <nav class="navbar navbar-expand-lg navbar-dark w-md-85 w-lg-80 w-xl-80 w-xl-85 w-xxl-80 mb-xl-2 ms-xxl-8">
             <div class="container-fluid flex-lg-row-reverse justify-content-between">
                 <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand home__logo" href="index.html"><img src="img/Logo3.svg" alt="Logo"></a>
+                <a class="navbar-brand home__logo " href="index.html"><img src="img/Logo3.svg" alt="Logo"></a>
                 <div class="collapse navbar-collapse text-uppercase" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link text-warning" href="about.html">About</a></li>
@@ -49,14 +48,14 @@
             <!-- Empieza Contenido Principal -->
     <main>
         <div class="ms-5">
-            <h2  class="ms-5 text-goldenrod">Galeria</h2>
+            <h2  class="ms-5 mt-4 text-white">Galeria</h2>
         </div>
         <div class="mb-3 ms-5">
             <h2 class="galeria__title-fotos text-goldenrod mb-md-5 ms-5 w-50">Fotos</h2>
         </div>
 
             <!-- CAROUSEL FOTOS -->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 carousel__center" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide w-sm-100 w-xl-75 carousel__center" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -108,64 +107,25 @@
         </div>
             <!-- CIERRA CAROUSEL FOTOS -->
 
-            <!-- CAROUSEL VIDEOS -->
+            <!-- VIDEOS -->
         <div class="mb-3 ms-5">
             <h2 class="galeria__title-videos text-goldenrod ms-5 mb-md-5 w-50 mt-4">Videos</h2>
         </div>
-
-        <div id="carouselExampleDark2" class="carousel carousel-dark slide w-75 carousel__center" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <div class="d-flex flex-column flex-xl-row col-lg-10 w-sm-100 w-100 justify-content-center">
+            <!-- PRIMER VIDEO -->
+                <div class="d-flex justify-content-center align-items-center flex-column flex-xl-column">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HpEf3NbiCGQ" class="my-2 mx-xxl-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- SEGUNDO VIDEO -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/87AMeKTuplE" class="my-2 mb-2 mx-xl-4 mx-xxl-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            <!-- TERCER VIDEO -->
+                <div class="d-flex justify-content-center align-items-center flex-column flex-xl-column">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/atDRckFY5N0" class="my-2 mx-xxl-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- CUARTO VIDEO -->
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bjIvTx8U9Xc" class="my-2 mb-2 mx-xxl-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
-
-            <!-- PRIMERA FOTO -->
-            <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="4000">
-                <img src="img/FotoBanda1.jpg" class="d-block w-100 mx-auto" alt="Video 1">
-            </div>
-            <!-- CIERRA PRIMERA FOTO -->
-
-            <!-- SEGUNDA FOTO -->
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/FotoBanda2.jpg" class="d-block w-100 mx-auto" alt="Video 2">
-            </div>
-            <!-- CIERRA SEGUNDA FOTO -->
-
-            <!-- TERCERA FOTO -->
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/FotoBanda3.jpg" class="d-block w-100 mx-auto" alt="Video 3">
-            </div>
-            <!-- CIERRA TERCERA FOTO -->
-
-            <!-- CUARTA FOTO -->
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/FotoBanda5.jpg" class="d-block w-100 mx-auto" alt="Video 4">
-            </div>
-            <!-- CIERRA CUARTA FOTO -->
-
-            <!-- QUINTA FOTO -->
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/FotoBanda6.jpg" class="d-block w-100 mx-auto" alt="Video 5">
-            </div>
-            <!-- CIERRA QUINTA FOTO -->
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-            <!-- CIERRA CAROUSEL VIDEOS -->
-
-
     </main>
             <!-- Cierra Contenido Principal -->
 

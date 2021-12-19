@@ -23,8 +23,35 @@ $secondary: white;
 //Sombras
 
 .text-shadow{
-    color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
+//Margin / Width
+
+.ms-9{
+    margin-left: 6rem;
+}
+
+.ms-10{
+    margin-left: 4rem;
+}
+
+.w-md-85{
+    width: 85%;
+}
+
+//MEDIA QUERIES
+@media (max-width: 1199.98px){
+    .w-sm-100{
+        width: 100%;
+    } 
+}
+@media (min-width: 1200px){
+    .w-xl-75{
+        width: 75%;
+    }
+    .w-xl-50{
+        width: 50%;
+    }
+}
 

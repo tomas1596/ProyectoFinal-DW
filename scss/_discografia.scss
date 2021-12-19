@@ -1,3 +1,11 @@
+.disco__bg-image{
+    background-image: url(/img/BackgroundDisco.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
 .disco__info-listen{
     text-align: center;
     font-size: 3rem;
@@ -6,10 +14,12 @@
 
 .disco__title-text{
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .disco__info-last{
-    font-size: large;
+    font-size: 1.6rem;
+    font-weight: $text__shrikhand;
     font-style: italic;
 }
 
