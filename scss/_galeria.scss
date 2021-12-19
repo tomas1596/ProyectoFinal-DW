@@ -14,5 +14,23 @@
     font-weight: bold;
 }
 
+@media (min-width: 370px) {
+    .videos-container{
+        width: 350px;
+        height: 315px;
+    }
+}
 
+@media (min-width: 576px) {
+    .videos-container{
+        width: 500px;
+        height: 315px;
+    }
+}
 
+@media (min-width: 740px) {
+    .videos-container{
+        width: 560px;
+        height: 315px;
+    }
+}

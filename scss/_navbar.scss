@@ -4,6 +4,10 @@
     transition: 0.3s;
 }
 
+.navigation ul li a {
+    border: 1px solid transparent;
+}
+
 .navbar ul li a:hover{
     color: #ffc107 !important;
     border-bottom: 0.1px solid #ffc107;

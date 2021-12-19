@@ -41,11 +41,31 @@ $secondary: white;
 }
 
 //MEDIA QUERIES
-@media (max-width: 1199.98px){
-    .w-sm-100{
-        width: 100%;
+
+@media (max-width: 459.98px){
+    .w-xs-90{
+        width: 90%;
+    }
+    .w-xs-50{
+        width: 50%;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 767.98px){
+    .w-sm-75{
+        width: 75%;
     } 
 }
+
+@media (min-width: 768px){
+    .w-lg-75{
+        width: 75%;
+    }
+    .w-lg-50{
+        width: 50%;
+    }
+}
+
 @media (min-width: 1200px){
     .w-xl-75{
         width: 75%;
