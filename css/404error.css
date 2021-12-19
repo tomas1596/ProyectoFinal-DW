@@ -39,7 +39,7 @@
 }
 
 .center_body h1{
-    font-size: 130px;
+    font-size: 8.125rem;
     color: black;
     letter-spacing: 5px;
     font-weight: 700;
@@ -48,15 +48,13 @@
 }
 
 .center_body h2{
-    color: goldenrod;
     text-shadow: 1px 1px 0 black;
-    font-size: 26px;
+    font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .center_body p{
-    color: goldenrod;
     text-shadow: 1px 1px 0 black;
     font-weight: 400;
     text-align: center;
@@ -64,7 +62,7 @@
 }
 
 .center_body a{
-    font-size: 14px;
+    font-size: 0.875rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -86,22 +84,26 @@
     background-color: black;
 }
 
-.footer__error-spacing{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 20px;
-    margin-left: 220px;
+
+/* MEDIA QUERY */
+
+@media (max-width: 416px){
+    .center_body h1{
+        font-size: 6.5rem;
+    }
+    .center_body h2{
+        font-size: 1rem;
+    }
 }
 
-.footer__error-socialMedia{
-    display: flex;
-    width: 13%;
-    justify-content: space-between;
-}
-
-.footer__error-copyright{
-    color: white;
+@media (min-width: 1600px){
+    .center_body h1{
+        font-size: 10rem;
+    }
+    .center_body h2{
+        font-size: 2rem;
+    }
+    .center_body p{
+        font-size: 1.5rem;
+    }
 }

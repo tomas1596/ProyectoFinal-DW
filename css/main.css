@@ -51,7 +51,7 @@
   border-bottom: 0.1px solid #ffc107;
   transition: 0.3s; }
 
-.navigation ul li a {
+.navbar ul li a {
   border: 1px solid transparent; }
 
 .navbar ul li a:hover {
@@ -329,3 +329,8 @@ body {
   .videos-container {
     width: 560px;
     height: 315px; } }
+
+@media (min-width: 1600px) {
+  .videos-container {
+    width: 700px;
+    height: 450px; } }
