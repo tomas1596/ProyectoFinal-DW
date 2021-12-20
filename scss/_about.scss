@@ -1,21 +1,13 @@
 .about__bg-color{
-    background-color: rgba($color: #493201, $alpha: 0.5);
+    background-color: rgba($color: #2c2c2c, $alpha: 0.5);
 }
 
 .about__bg-image{
-    background-image: url(/img/BackgroundAbout.jpg);
+    background-image: url('../img/BackgroundAbout.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-}
-
-.about__bg-image:before{
-    content: "";
-    position: absolute;
-    background-color: rgba($color: #f7c156, $alpha: 0.1);
-    width: 100%;
-    height: 100%;
 }
 
 .about__info-text{
@@ -23,6 +15,11 @@
 }
 
 .about__title{
+    font-weight: bold;
+    
+}
+
+.about__title-band{
     font-weight: $text__eczar;
     text-align: center;
 }

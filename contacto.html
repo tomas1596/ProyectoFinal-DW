@@ -19,7 +19,6 @@
 
             <!-- Titulo Página -->
     <title>Imagine Dragons - Contacto</title>
-
 </head>
 
 
@@ -27,7 +26,7 @@
 
             <!-- Empieza Navbar -->
     <header>    
-        <nav class="navbar navbar-expand-lg navbar-dark w-md-85 w-lg-80 w-xl-80 w-xl-85 w-xxl-80 mb-lg-4 ms-xxl-8">
+        <nav class="navbar navbar-expand-lg navbar-dark w-md-85 w-lg-80 w-xl-80 w-xl-85 w-xxl-80 ms-xxl-8">
             <div class="container-fluid flex-lg-row-reverse justify-content-between">
                 <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,9 +45,50 @@
     </header>
             <!-- Cierra Navbar -->
 
+            <!-- Empieza Contenido Principal -->
+    <main class="contacto__bg-image">
+        <div class="d-flex flex-column flex-xl-row">
+            <div class="ms-md-5">
+                <div>
+                    <h1 class="mt-4 ms-5 ms-md-5 text-white contact__text-size">Contacto</h1>
+                    <p class="mt-5 mb-3 mb-md-4 mb-xxl-5 ms-4 ms-md-4 ms-xl-2 text-warning text-shadow contact__text-info">Dejanos tu comentario y opinión sobre la banda o del contenido de la página para poder mejorarla.</p>
+                </div>
+                <div class="col-11 ms-4 ms-xl-0 mb-xl-3">
+                    <img src="img/FotoBanda3.jpg" alt="FotoGrupal" class="w-100">
+                </div>
+            </div>
+                <!-- Inicia Form -->
+            <div class="col-11 col-xl-5 mb-4 ms-5 ms-xl-0">
+                <form action="" method="post" target="_blank">
+                    <div class="mt-5">
+                        <div class="mb-3">
+                            <label for="validarNombre" class="text-warning">Nombre:</label>
+                            <input type="text" placeholder="Nombre" class="form-control w-50" id="validarNombre" name="validarNombre" required>
+                        </div>
+                    </div>            
+                    <div>
+                        <div class="mb-3">
+                            <label for="validarEmail" class="text-warning">Email:</label>
+                            <input type="email" placeholder="Correo Electrónico" class="form-control w-50" id="validarEmail" name="validarEmail" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="validationMensaje" class="text-warning">Mensaje:</label>
+                        <textarea class="form-control w-75" id="validationMensaje" name="validationMensaje" rows="5" min="15" required></textarea>
+                    </div>
+                    <div class="mt-2">
+                        <button class="btn btn-light" type="submit" name="submit" onclick= "location.href='404.html'">Enviar</button>
+                        <button class="btn btn-secondary" type="reset" name="reset">Borrar</button>
+                    </div>
+                </form>
+                <!-- Cierra Form -->
+            </div>
+        </div>
+    </main>
+            <!-- Termina Contenido Principal -->
 
             <!-- Empieza Footer -->        
-    <footer class="d-flex flex-row-reverse justify-content-evenly py-1 my-0">
+    <footer class="d-flex flex-row-reverse justify-content-evenly py-1 mt-3">
         <div>
             <span class="text-white">Copyright Tomás Panadeiro © <br> Desarrollo Web </span>
         </div>

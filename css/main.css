@@ -24,6 +24,9 @@
 .w-md-85 {
   width: 85%; }
 
+.width-md-85 {
+  width: 85%; }
+
 @media (max-width: 459.98px) {
   .w-xs-90 {
     width: 90%; }
@@ -119,17 +122,11 @@ body {
   font-size: 200;
   font-size: 1.2rem; }
 
-@media (max-width: 767.98px) {
-  .home__image {
-    margin-left: 0.5rem; } }
+.home__text-title {
+  font-size: 3.5rem; }
 
-@media (max-width: 376px) {
-  .home__title {
-    margin-left: -2rem; } }
-
-@media (min-width: 377px) and (max-width: 500px) {
-  .home__title {
-    margin-left: -1rem; } }
+.home__text-info {
+  font-size: 2rem; }
 
 @media (min-width: 433px) and (max-width: 576px) {
   .col-sm-1 {
@@ -141,89 +138,22 @@ body {
   .col-sm-4 {
     width: 25%; } }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  .home__image {
-    display: flex;
-    justify-content: center;
-    align-items: center; } }
-
-@media (min-width: 1120px) and (max-width: 1399.98px) {
-  .home__info {
-    font-size: 1.4rem; } }
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .ms-xl-6 {
-    margin-left: 5rem; }
-  .home__title {
-    font-size: 2rem;
-    width: auto;
-    text-align: left; }
-  .home__info {
-    font-size: 1.6rem; } }
-
-@media (min-width: 1200px) and (max-width: 1269.98px) {
-  .home__info {
-    font-size: 1.48rem; } }
-
-@media (min-width: 1200px) and (max-width: 1270px) {
-  .home__title {
-    margin-left: -2rem; } }
-
-@media (min-width: 1267px) and (max-width: 1319.98px) {
-  .home__title {
-    margin-right: 1rem;
-    margin-left: -1rem;
-    position: absolute; }
-  .home__info {
-    position: absolute;
-    margin-right: 4rem;
-    margin-top: 6rem; } }
-
-@media (min-width: 1267px) and (max-width: 1399.98px) {
-  .home__info {
-    font-size: 1.6rem; } }
-
-@media (min-width: 1400px) {
-  .home__title {
-    font-size: 2.5rem; }
-  .home__info {
+@media (min-width: 1200px) and (max-width: 1275px) {
+  .home__text-info {
     font-size: 1.8rem; } }
 
-@media (min-width: 1400px) and (max-width: 1599.98px) {
-  .home__image {
-    margin-left: 5rem; }
-  .w-xxl-75 {
-    width: 40%; } }
+@media (min-width: 1400px) and (max-width: 1454px) {
+  .home__text-info {
+    font-size: 1.9rem; } }
 
-@media (min-width: 1400px) and (max-width: 1432px) {
-  .home__title {
-    font-size: 1.92rem; }
-  .home__info {
-    font-size: 1.7rem; } }
-
-@media (min-width: 1433px) and (max-width: 1599.98px) {
-  .home__title {
+@media (max-width: 538px) {
+  .home__text-title {
     font-size: 2rem; }
-  .home__info {
-    font-size: 1.7rem; } }
-
-@media (min-width: 1600px) {
-  .ms-xxl-7 {
-    margin-left: 10rem; }
-  .w-xxl-100 {
-    width: 80%; } }
-
-@media (min-width: 1900px) {
-  .home__title {
-    font-size: 3rem;
-    text-align: left;
-    margin-left: 2rem; }
-  .home__info {
-    font-size: 2rem;
-    width: 80%; } }
+  .home__text-info {
+    font-size: 1.5rem; } }
 
 .about__bg-color {
-  background-color: rgba(73, 50, 1, 0.5); }
+  background-color: rgba(44, 44, 44, 0.5); }
 
 .about__bg-image {
   background-image: url("../img/BackgroundAbout.jpg");
@@ -232,17 +162,13 @@ body {
   background-attachment: fixed;
   position: relative; }
 
-.about__bg-image:before {
-  content: "";
-  position: absolute;
-  background-color: rgba(247, 193, 86, 0.1);
-  width: 100%;
-  height: 100%; }
-
 .about__info-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .about__title {
+  font-weight: bold; }
+
+.about__title-band {
   font-weight: 500;
   text-align: center; }
 
@@ -275,7 +201,7 @@ body {
     font-size: 2rem; } }
 
 .disco__bg-image {
-  background-image: url(/img/BackgroundDisco.jpg);
+  background-image: url("../img/BackgroundDisco.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -306,6 +232,16 @@ body {
 .carousel__center {
   margin: 0 auto; }
 
+.galeria__bg-image {
+  background-image: url("../img/BackgroundGaleria.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative; }
+
+.galeria__title {
+  font-weight: bold; }
+
 .galeria__title-fotos {
   text-align: end;
   font-size: 3rem; }
@@ -334,3 +270,17 @@ body {
   .videos-container {
     width: 700px;
     height: 450px; } }
+
+.contacto__bg-image {
+  background-image: url("../img/BackgroundContact.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative; }
+
+.contacto__text-size {
+  font-size: 32px;
+  font-weight: bold; }
+
+.contact__text-info {
+  font-size: 1.2rem; }

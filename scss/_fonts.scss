@@ -18,7 +18,6 @@ $text__shrikhand: 400;
 
 $spacer: 1rem !default;
         $spacers: () !default;
-        // stylelint-disable-next-line scss/dollar-variable-default
         $spacers: map-merge(
         (
             0: 0,
