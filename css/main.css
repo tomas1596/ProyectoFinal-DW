@@ -138,19 +138,47 @@ body {
   .col-sm-4 {
     width: 25%; } }
 
-@media (min-width: 1200px) and (max-width: 1275px) {
-  .home__text-info {
-    font-size: 1.8rem; } }
-
-@media (min-width: 1400px) and (max-width: 1454px) {
-  .home__text-info {
-    font-size: 1.9rem; } }
-
 @media (max-width: 538px) {
   .home__text-title {
     font-size: 2rem; }
   .home__text-info {
     font-size: 1.5rem; } }
+
+@media (min-width: 1200px) and (max-width: 1243.98px) {
+  .home__text-info {
+    font-size: 1.4rem; }
+  .home__text-title {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1244px) and (max-width: 1399.98px) {
+  .home__text-info {
+    font-size: 1.5rem; }
+  .home__text-title {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1600px) {
+  .ms-xxl-6 {
+    margin-left: 8rem; } }
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .home__text-info {
+    font-size: 1.6rem; }
+  .home__text-title {
+    font-size: 2.8rem; } }
+
+@media (min-width: 1600px) and (max-width: 1919.98px) {
+  .w-xxl-100 {
+    width: 75%; }
+  .home__text-info {
+    font-size: 1.6rem; } }
+
+@media (min-width: 1920px) {
+  .w-xxl-100 {
+    width: 75%; }
+  .home__text-title {
+    font-size: 4rem; }
+  .home__text-info {
+    font-size: 2.3rem; } }
 
 .about__bg-color {
   background-color: rgba(44, 44, 44, 0.5); }
